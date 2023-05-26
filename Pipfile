@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+notebook = "*"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
+scikit-learn = "*"
+numpy = "*"
+nltk = "*"
+wordcloud = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
